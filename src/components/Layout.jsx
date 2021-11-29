@@ -112,24 +112,7 @@ const Layout = ({
                 <Divider
                     className={classes.bottomDivider}
                 />
-                <footer className={classes.footerContainer}>
-                    <Typography
-                        color="textPrimary"
-                        variant="body1"
-                    >
-                        {/* {new Date().getFullYear()} */}
-                        {intl.formatMessage({ id: 'built_with' })}
-                        <a
-                            href="https://www.gatsbyjs.com/"
-                            rel="noreferrer"
-                            target="_blank"
-                        >
-                            Gatsby
-                        </a>
-                        {' | '}
-                        <Link to="/cookie-policy">{intl.formatMessage({ id: 'cookie_law.title' })}</Link>
-                    </Typography>
-                </footer>
+                
             </Container>
             <Snackbar
                 open={isShowingSnackbar}

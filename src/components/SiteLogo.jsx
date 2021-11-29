@@ -23,9 +23,6 @@ function SiteLogo() {
             variant="h5"
         >
             Resume Builder
-            <span className={classes.versionText}>
-                {` v ${buildVersion}`}
-            </span>
         </Typography>
     );
 }

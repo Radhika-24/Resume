@@ -79,26 +79,7 @@ function MenuItems({
                         </Typography>
                     </Link>
                 </ListItemText>
-                <ListItemText
-                    className={classNames({
-                        [classes.menuItem]: !isDrawer,
-                    })}
-                    inset
-                >
-                    <a
-                        className={classes.externalLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://github.com/blopa/Resume-Builder"
-                    >
-                        <Typography
-                            className={classes.menuLink}
-                            variant="subtitle1"
-                        >
-                            {intl.formatMessage({ id: 'source_code' })}
-                        </Typography>
-                    </a>
-                </ListItemText>
+                
             </ListItem>
         </List>
     );
